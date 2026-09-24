@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-eodhd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EODHD MCP — wraps EOD Historical Data (eodhd.com)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-eodhd": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "eodhd"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-eodhd"
+    "url": "git+https://github.com/pipeworx-io/mcp-eodhd.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0f3982008d8a2f0a194b93599af9537f928a56f14a80070e475abb70847bf5a5",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
