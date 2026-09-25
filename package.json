@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-eodhd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EODHD MCP — wraps EOD Historical Data (eodhd.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0f3982008d8a2f0a194b93599af9537f928a56f14a80070e475abb70847bf5a5",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-2c6150543048409cac77ee37d30ad002d2ab9ffe88baf065ec2a514f2c72b108",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
