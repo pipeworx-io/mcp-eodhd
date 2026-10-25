@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/eodhd",
   "title": "Eodhd",
   "description": "EODHD MCP — wraps EOD Historical Data (eodhd.com)",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "websiteUrl": "https://pipeworx.io/packs/eodhd",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-eodhd",
